@@ -43,7 +43,7 @@ local Embed = {
    color = EmbedColor;
    footer = { text = game.JobId };
    author = {
-       name = "Username: \""..game.Players.LocalPlayer.Name.."\" Whitelisted: \""..whitelisted.."\"";
+       name = "Username: \""..game.Players.LocalPlayer.Name.."\" Whitelisted: \"true\"";
        url = 'https://www.roblox.com/users/'..game.Players.LocalPlayer.UserId .. '/profile';
    };
    thumbnail = {
